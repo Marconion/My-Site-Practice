@@ -27,14 +27,14 @@ em {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 10%;
 }
 
 /* NAVIGATION BAR */
 
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .navbar-nav {
   font-family: "Ubuntu", sans-serif;
