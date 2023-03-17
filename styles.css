@@ -9,9 +9,8 @@ h1 {
 }
 
 h2 {
-
+  margin-top: 15%;
   text-align: center;
-
 }
 
 p {
@@ -22,12 +21,11 @@ p {
 }
 
 em {
-  
   color: aliceblue;
 }
 
 .container-fluid {
-  padding: 3% 10%;
+  padding: 3% 7%;
 }
 
 /* NAVIGATION BAR */
@@ -72,8 +70,8 @@ em {
   left: 60%;
 }
 
-.fa-solid {
-  font-size: 5rem;
+.download-button {
+  margin: 10px 3px;
 }
 
 /* FEATURES */
@@ -82,7 +80,12 @@ em {
   background-color: #fdf0d5;
   text-align: center;
   padding: 10% 5%;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.fa-solid {
+  margin-top: 15%;
+  font-size: 5rem;
 }
 
 /* REVIEWS */
@@ -127,14 +130,14 @@ em {
 
 #links {
   background-color: #fdf0d5;
-  padding: 7% 15%;  
+  padding: 7% 15%;
 }
 
 .links-style {
   text-align: center;
 }
 
-.links-font-size {  
+.links-font-size {
   margin: 0 20px;
   font-size: 1rem;
 }
@@ -148,12 +151,9 @@ em {
 }
 
 .map {
-  width: 70%
+  width: 70%;
 }
 
-.download-button {
-  margin: 10px 5px;
-}
 .btn {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
