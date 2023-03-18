@@ -27,6 +27,10 @@ p {
   color: #003049;
 }
 
+hr {
+  margin: 50px auto 0;
+}
+
 em {
   color: aliceblue;
 }
@@ -154,9 +158,8 @@ em {
 }
 
 .utisci {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;  
+  font-size: 2rem;
   color: aliceblue;
   padding-top: 4%;
   margin-bottom: 0px;
