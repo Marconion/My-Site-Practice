@@ -49,10 +49,11 @@ em {
   font-size: 1.2rem;
 }
 
+
 /* TITLE */
 
 #title {
-  background-color: #780000;
+  background-color: #003049;
   color: aliceblue;
   text-align: center;
   height: 40%;
@@ -72,6 +73,25 @@ em {
 
 .download-button {
   margin: 10px 3px;
+}
+
+/* APARTMANI */
+
+#apartmani {
+  text-align: center;
+}
+
+.card-section-style {
+
+margin: 50px;
+
+}
+.card {
+  margin: auto;
+}
+
+.card-size {
+  margin-top: 20px;
 }
 
 /* FEATURES */
@@ -101,7 +121,7 @@ em {
 }
 .review-images {
   margin: 20px;
-  width: 12%;
+  width: 14%;
   border-radius: 10%;
 }
 
@@ -157,13 +177,13 @@ em {
 .btn {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Arial;
+  border-radius: 10px;  
   color: #003049;
   font-size: 15px;
   background: #fdf0d5;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  --bs-btn-border-width: 0px;
 }
 
 .btn:hover {
