@@ -52,7 +52,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <br>
+            <br />
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="index.html"
                 >Početna strana</a
@@ -67,192 +67,33 @@
           </ul>
         </div>
       </nav>
-
-      <!-- TITLE -->
-
-      <div class="container-fluid">
-        <div class="title">
-          <div class="row">
-            <div class="col-lg-6">
-              <h1>Dobrodošli u apartmane <br> "Krčmar"</h1>
-            </div>
-          </div>
-        </div>
-      </div>
+      
+    <!-- BOOKING FORM -->
+      <h1>Rezervacije</h1>
+    <section id="form">
+        <form action="">
+            <label for="firstname">Ime: </label><br>
+            <input type="text" name="firstname" id="firstname" placeholder="Unesi ime"><br><br>
+            <label for="lastname">Prezime: </label><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Unesi prezime"><br><br>
+    
+            <h3>Izaberi apartman</h3><br>
+            <input type="radio" id="krcmar1" name="apartmani" value="Apartman Krčmar 1">
+            <label for="krcmar1">Apartman "Krčmar 1"</label><br>
+            <br>
+            <input type="radio" id="krcmar2" name="apartmani" value="Apartman Krčmar 2">
+            <label for="krcmar2">Apartman "Krčmar 2"</label><br>
+            <br><br>
+            <label for="datefrom">Izaberi datum od</label><br>
+            <input type="date" id="datefrom" name="datum">
+            <br><br>
+            <label for="dateto">Izaberi datum do</label><br>
+            <input type="date" id="dateto" name="datum">
+            <br><br><br>
+            <input type="submit" value="Pošalji upit">
+        </form>
     </section>
-
-    <!-- APARTMANI -->
-
-    <section id="apartmani">
-      <div class="container-fluid">
-        <div class="row card-section-style">
-          <div class="col-lg-6 card-size">
-            <div class="card" style="width: 18rem">
-              <img
-                src="images/Screenshot 2023-03-18 at 02-46-32 Krcmar Divcibare (@apartmani_krcmar_divcibare) • Instagram photos and videos.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Krčmar 1</h5>
-                <p class="card-text">
-                  <ul style="text-align: left;">
-                    <li>kompletno opremljena kuhinja</li>
-                    <li>Wi-Fi i kablovska televizija</li>
-                    <li>peškiri i posteljina</li>
-                    <li>fen</li>
-                    <li>terasa</li>
-                    <li>parking ispred zgrade</li>
-                    <li>bračni krevet 160 x 200</li>
-                    <li>pomoćni ležaj na razvlačenje</li>
-                  </ul>
-                </p>
-                <a href="reservation.html" class="btn btn-primary">Rezerviši</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 card-size">
-            <div class="card" style="width: 18rem">
-              <img
-                src="images/Screenshot 2023-03-18 at 02-47-25 Krcmar Divcibare (@apartmani_krcmar_divcibare) • Instagram photos and videos.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Krčmar 2</h5>
-                <p class="card-text">
-                  <ul style="text-align: left;">
-                    <li>kompletno opremljena kuhinja</li>
-                    <li>Wi-Fi i kablovska televizija</li>
-                    <li>peškiri i posteljina</li>
-                    <li>fen</li>
-                    <li>terasa</li>
-                    <li>parking ispred zgrade</li>
-                    <li>bračni krevet 160 x 200</li>
-                    <li>pomoćni ležaj na razvlačenje</li>
-                  </ul>
-                </p>
-                <a href="reservation.html" class="btn btn-primary">Rezerviši</a>
-              </div>
-            </div>
-          </div>          
-        </div>
-      </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section id="features">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 feature-space">
-          <i class="fa-solid fa-mountain-sun"></i>
-          <p>
-            Pobegnite iz grada i uživajte u čistom planinskom vazduhu
-          </p>
-          <hr>
-        </div>
-        <div class="col-lg-4 col-md-12 feature-space">
-          <i class="fa-solid fa-water"></i>
-          <p>
-            Uslužni bazen se nalazi nedaleko od nas <br> <em style="color: #003049; font-size: 1rem;">(u sklopu hotela "Crni vrh")</em>
-          </p>
-          <hr>
-        </div>
-        <div class="col-lg-4 col-md-12 feature-space">
-          <i class="fa-solid fa-person-hiking"></i>
-          <p>
-            Istražite okolnu prirodu
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- REVIEWS -->
-    <section id="reviews">
-      <p class="utisci">Utisci</p>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <p class="font-light">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-              laboriosam esse provident quam architecto ab!
-            </p>
-            <img
-              src="images/free-stock-photos-people_102217-2591248159.jpeg"
-              class="review-images"
-              alt="..."
-            />
-            <em>Dana White</em>
-          </div>
-          <div class="carousel-item">
-            <p class="font-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae quisquam nobis ducimus eos veniam quo!
-            </p>
-            <img
-              src="images/pexels-photo-736716-1603051364.jpeg"
-              class="review-images"
-              alt="..."
-            />
-            <em>John Maybe</em>
-          </div>
-          <div class="carousel-item">
-            <p class="font-light">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              rem aspernatur quos accusantium perspiciatis dolorum.
-            </p>
-            <img
-              src="images/pexels-photo-736716-1603051364.jpeg"
-              class="review-images"
-              alt="..."
-            />
-            <em>Marc False</em>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <hr style="color:aliceblue;">
-    </section>
-
-    <!-- LOKACIJA -->
-    <section id="lokacija">
-      <p class="utisci">Kako do nas</p>
-      <br />
-      <div class="row">
-        <div class="col-md-12">
-          <iframe
-            class="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26475.255398783378!2d19.997738518895215!3d44.11611452977966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4759dd9f69ca8675%3A0x8185e6350f3a36e!2zRGl2xI1pYmFyZSBzbWXFoXRhag!5e0!3m2!1ssr!2srs!4v1679091199572!5m2!1ssr!2srs"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </div>
-    </section>
+    
     <!-- LINKS -->
     <section id="links">
       <div>
@@ -261,8 +102,8 @@
           zanima.
         </h2>
       </div>
-      <br>
-      <hr>
+      <br />
+      <hr />
       <div class="links">
         <p class="links-style">
           <i class="fa-brands fa-facebook links-font-size"></i>
