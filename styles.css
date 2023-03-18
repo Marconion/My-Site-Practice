@@ -20,6 +20,7 @@ h2 {
 h5 {
   font-weight: 900;
 }
+
 p {
   font-family: "Montserrat", sans-serif;
   /* text-align: center; */
@@ -28,7 +29,7 @@ p {
 }
 
 hr {
-  margin: 50px auto 0;
+  margin: 50px auto 0;  
 }
 
 em {
@@ -106,6 +107,7 @@ em {
 
 .card-size {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card-text {
