@@ -31,9 +31,9 @@ em {
   color: aliceblue;
 }
 
-.container-fluid {
+/* .container-fluid {
   padding: 3% 7%;
-}
+} */
 
 /* NAVIGATION BAR */
 .navbar {
@@ -240,3 +240,13 @@ em {
   animation: slideFromLeft 1s ease-in;
 }
 
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
