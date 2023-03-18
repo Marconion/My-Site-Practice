@@ -90,6 +90,10 @@ margin: 50px;
   margin: auto;
 }
 
+.card-size {
+  margin-top: 20px;
+}
+
 /* FEATURES */
 
 #features {
