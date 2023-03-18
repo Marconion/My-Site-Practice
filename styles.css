@@ -13,6 +13,9 @@ h2 {
   text-align: center;
 }
 
+h5 {
+  font-weight: 900;
+}
 p {
   font-family: "Montserrat", sans-serif;
   /* text-align: center; */
@@ -29,16 +32,23 @@ em {
 }
 
 /* NAVIGATION BAR */
+.navbar {
+  padding: 3% 10%;
+  background-color: #fdf0d5;
+  
+  
+}
 
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.2rem;
+  color: #003049;
 }
 .navbar-nav {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.2rem;
   align-items: center;
-  margin-left: auto;
+  margin-left: auto;  
 }
 
 .nav-item {
@@ -47,6 +57,7 @@ em {
 
 .nav-link {
   font-size: 1.2rem;
+  color: #003049;
 }
 
 
@@ -83,7 +94,7 @@ em {
 
 .card-section-style {
 
-margin: 50px;
+margin: 50px auto;
 
 }
 .card {
@@ -94,18 +105,22 @@ margin: 50px;
   margin-top: 20px;
 }
 
+.card-text {
+  padding-top: 20px;
+}
+
 /* FEATURES */
 
 #features {
   background-color: #fdf0d5;
   text-align: center;
   padding: 10% 5%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .fa-solid {
   margin-top: 15%;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 /* REVIEWS */
@@ -127,7 +142,7 @@ margin: 50px;
 
 .font-light {
   margin-bottom: 50px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: aliceblue;
 }
 
@@ -144,6 +159,8 @@ margin: 50px;
   font-weight: 900;
   font-size: 3rem;
   color: aliceblue;
+  padding-top: 4%;
+  margin-bottom: 0px;
 }
 
 /* LINKS */
