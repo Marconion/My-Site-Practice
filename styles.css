@@ -32,12 +32,12 @@ hr {
 }
 
 em {
-  color: aliceblue;
+  color: #fdf0d5;
 }
 
-/* .container-fluid {
+.container-fluid {
   padding: 3% 7%;
-} */
+}
 
 /* NAVIGATION BAR */
 .navbar {
@@ -70,7 +70,7 @@ em {
 
 #title {
   background-color: #003049;
-  color: aliceblue;
+  color: #fdf0d5;
   text-align: center;
   height: 40%;
   padding-bottom: 10%;
@@ -146,7 +146,7 @@ em {
 .font-light {
   margin-bottom: 50px;
   font-size: 1.2rem;
-  color: aliceblue;
+  color: #fdf0d5;
 }
 
 .carousel-control-prev {
@@ -160,7 +160,7 @@ em {
 .utisci {
   font-family: "Ubuntu", sans-serif;  
   font-size: 2rem;
-  color: aliceblue;
+  color: #fdf0d5;
   padding-top: 4%;
   margin-bottom: 0px;
 }
@@ -170,6 +170,7 @@ em {
 #links {
   background-color: #fdf0d5;
   padding: 7% 15%;
+  color: #003049;
 }
 
 .links-style {
@@ -243,13 +244,8 @@ em {
   animation: slideFromLeft 1s ease-in;
 }
 
-.tag {
-  opacity: 0;
-  transform: translate(0, 10vh);
-  transition: all 1s;
-}
+/* FORM */
 
-.tag.visible {
-  opacity: 1;
-  transform: translate(0, 0);
+#form {
+  padding: 7% 15%;
 }
