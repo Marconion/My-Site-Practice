@@ -173,7 +173,11 @@ em {
   color: #003049;
 }
 
-.links-style {
+a {
+  color: #003049;
+}
+
+.links-style {  
   text-align: center;
 }
 
