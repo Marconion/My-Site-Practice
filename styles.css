@@ -342,9 +342,10 @@ a {
 
 @media only screen and (min-width: 992px) {
   .title-img {
+    position: static;
     width: 50%;
     margin: 6px 0;
-    padding-top: 0 auto;
+    padding-top: 0%;
   }
 
   #title {
@@ -413,9 +414,14 @@ a {
 @media only screen and (max-width: 460px) {
   .title-img {
     width: 100%;
+    position: static;
   }
 
   .title-text {
     margin-top: 0%;
+  }
+
+  .container-fluid {
+    padding: 3% 0 0;
   }
 }
