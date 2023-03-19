@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.7rem;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -30,6 +30,8 @@ p {
 
 hr {
   margin: 50px auto 0;
+  border: 1px solid;
+  width: 70%;
 }
 
 em {
