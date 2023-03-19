@@ -410,7 +410,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 350px) {
   .title-img {
     width: 100%;
     position: static;
@@ -421,6 +421,6 @@ a {
   }
 
   .container-fluid {
-    padding: 3% 0 0;
+    padding: 3% 0 0 3%;
   }
 }
