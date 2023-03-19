@@ -24,11 +24,8 @@ h5 {
   font-weight: 900;
 }
 
-p {
-  font-family: "Montserrat", sans-serif;
-  /* text-align: center; */
-  padding-top: 50px;
-  color: #003049;
+p {  
+  padding-top: 50px;  
 }
 
 hr {
@@ -88,7 +85,7 @@ em {
   color: #fdf0d5;
   text-align: center;
   height: 40%;
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
 }
 
 .title {
