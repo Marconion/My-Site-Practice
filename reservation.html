@@ -17,9 +17,13 @@
     <link rel="stylesheet" href="styles.css" />
 
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;500&family=Merriweather&family=Montserrat:wght@400;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;500&family=Dancing+Script:wght@400;700&family=Merriweather&family=Montserrat:wght@400;900&family=Sacramento&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- FONT AWESOME -->
     <script
       src="https://kit.fontawesome.com/a3c7177812.js"
@@ -32,10 +36,9 @@
       <!-- NAV BAR -->
 
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand fade-in" href="index.html"
-          >Apartmani "KRČMAR" <br />
-          Divčibare</a
-        >
+        <a class="navbar-brand" href="index.html"
+          ><img class="logo-img" src="images/Logo.png" alt="logo-img"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -64,33 +67,56 @@
           </ul>
         </div>
       </nav>
-      
-    <!-- BOOKING FORM -->
-      <h1>Rezervacije</h1>
-    <section id="form">
-        <form action="">
-            <label for="firstname">Ime: </label><br>
-            <input type="text" name="firstname" id="firstname" placeholder="Unesi ime"><br><br>
-            <label for="lastname">Prezime: </label><br>
-            <input type="text" name="lastname" id="lastname" placeholder="Unesi prezime"><br><br>
-    
-            <h3>Izaberi apartman</h3><br>
-            <input type="radio" id="krcmar1" name="apartmani" value="Apartman Krčmar 1">
-            <label for="krcmar1">Apartman "Krčmar 1"</label><br>
-            <br>
-            <input type="radio" id="krcmar2" name="apartmani" value="Apartman Krčmar 2">
-            <label for="krcmar2">Apartman "Krčmar 2"</label><br>
-            <br><br>
-            <label for="datefrom">Izaberi datum od</label><br>
-            <input type="date" id="datefrom" name="datum">
-            <br><br>
-            <label for="dateto">Izaberi datum do</label><br>
-            <input type="date" id="dateto" name="datum">
-            <br><br><br>
-            <input type="submit" value="Pošalji upit">
-        </form>
     </section>
-    
+
+    <!-- BOOKING FORM -->
+
+    <section id="form">
+      <h1>Rezervacije</h1>
+      <form action="">
+        <label for="firstname">Ime: </label><br />
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Unesi ime"
+        /><br /><br />
+        <label for="lastname">Prezime: </label><br />
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Unesi prezime"
+        /><br /><br />
+
+        <h3>Izaberi apartman</h3>
+        <br />
+        <input
+          type="radio"
+          id="krcmar1"
+          name="apartmani"
+          value="Apartman Krčmar 1"
+        />
+        <label for="krcmar1">Apartman "Krčmar 1"</label><br />
+        <br />
+        <input
+          type="radio"
+          id="krcmar2"
+          name="apartmani"
+          value="Apartman Krčmar 2"
+        />
+        <label for="krcmar2">Apartman "Krčmar 2"</label><br />
+        <br /><br />
+        <label for="datefrom">Izaberi datum od</label><br />
+        <input type="date" id="datefrom" name="datum" />
+        <br /><br />
+        <label for="dateto">Izaberi datum do</label><br />
+        <input type="date" id="dateto" name="datum" />
+        <br /><br /><br />
+        <input type="submit" value="Pošalji upit" />
+      </form>
+    </section>
+
     <!-- LINKS -->
     <section id="links">
       <div>
@@ -99,12 +125,18 @@
           zanima.
         </h2>
       </div>
-      <br />
+      <div class="links-style">
+        <img class="logo-img" src="images/Logo.png" alt="logo-img" />
+      </div>
       <hr />
       <div class="links">
         <p class="links-style">
           <i class="fa-brands fa-facebook links-font-size"></i>
-          <a class="links-style" href="https://www.instagram.com/apartmani_krcmar_divcibare/"><i class="fa-brands fa-instagram links-font-size"></i></a>          
+          <a
+            class="links-style"
+            href="https://www.instagram.com/apartmani_krcmar_divcibare/"
+            ><i class="fa-brands fa-instagram links-font-size"></i
+          ></a>
           <i class="fa-brands fa-whatsapp links-font-size"></i>
           <i class="fa-solid fa-envelope links-font-size"></i>
         </p>
