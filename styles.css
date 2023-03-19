@@ -9,7 +9,9 @@ body {
 
 h1 {
   font-size: 2rem;
-  margin: 6% auto;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -29,7 +31,7 @@ p {
 }
 
 hr {
-  margin: 50px auto 0;  
+  margin: 50px auto 0;
 }
 
 em {
@@ -48,7 +50,7 @@ em {
 
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
-  
+  font-weight: 500;
   font-size: 1.2rem;
   color: #003049;
 }
@@ -66,6 +68,10 @@ em {
 .nav-link {
   font-size: 1.2rem;
   color: #003049;
+}
+
+.logo-img {
+  width: 150px;
 }
 
 /* TITLE */
@@ -161,7 +167,7 @@ em {
 }
 
 .utisci {
-  font-family: "Ubuntu", sans-serif;  
+  font-family: "Ubuntu", sans-serif;
   font-size: 2rem;
   color: #fdf0d5;
   padding-top: 4%;
@@ -180,7 +186,7 @@ a {
   color: #003049;
 }
 
-.links-style {  
+.links-style {
   text-align: center;
 }
 
@@ -235,12 +241,11 @@ a {
 
 .fade-in {
   animation: fadeIn 2s ease-in;
-  
 }
 
 @keyframes slideFromLeft {
   from {
-    transform: translateX(-100px);
+    transform: translateX(-350px);
   }
 
   to {
@@ -248,12 +253,27 @@ a {
   }
 }
 
+@keyframes slideFromRight {
+  from {
+    transform: translateX(350px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
 .slide-from-left {
-  animation: slideFromLeft 1s ease-in;
+  animation: slideFromLeft 2s ease-in, fade-in 2s ease-in;
+}
+.slide-from-right {
+  animation: slideFromRight 2s ease-in;
 }
 
 /* FORM */
 
 #form {
-  padding: 7% 15%;
+  background-color: #003049;
+  color: #fdf0d5;
+  text-align: center;  
+  padding-bottom: 10%;
 }
