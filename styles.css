@@ -44,6 +44,12 @@ em {
   color: #fdf0d5;
 }
 
+/* img {
+  width: 250px;
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(5px 5px 5px #666666);
+} */
+
 .container-fluid {
   padding: 3% auto;
 }
@@ -97,7 +103,7 @@ em {
 }
 
 .title {
-  padding: 0 auto;
+  padding: 5% 0 0 0;
 }
 
 .title-text {
@@ -110,12 +116,22 @@ em {
   padding-top: 5%;
 }
 
+.col-lg-6 {
+
+  padding: 0 0 0 0;
+
+}
+
 .galery-img {
   max-width: 100%;
   height: auto;
   padding-top: 5%;
   top: 20%;
   left: 60%;
+}
+
+.galerija-text {
+  padding-top: 5%;
 }
 
 /* APARTMANI */
@@ -365,6 +381,11 @@ a {
     padding: 5% 10%;
   }
 
+  .h2 {
+    font-size: 2rem;
+    padding-top: 5%
+  }
+
   p {
     padding-top: 50px;
   }
@@ -412,6 +433,17 @@ a {
     margin-top: 0;
   }
 
+  .h2 {
+    font-size: 2rem;
+    padding-top: 10%
+  }
+
+  hr {
+    margin: 50px auto 50px;
+    border: 1px solid; 
+    width: 70%;
+  }
+
   #links {
     padding: 2% 20%;
   }
@@ -425,8 +457,20 @@ a {
   .title-text {
     margin-top: 0%;
   }
+
+  .h2 {
+    font-size: 2rem;
+    padding-top: 20%
+  }
   
-  /* #title .container-fluid {
-    padding: 3%;
-  } */
+  #title.container-fluid {
+    padding: 0%;
+  }
+  .container-fluid.galerija-text {
+    padding-bottom: 5%;
+  }
+  
+  .galerija-text {
+    padding-top: 10%;
+  }
 }
