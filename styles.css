@@ -20,6 +20,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.2rem;
+  margin-top: 5%;
+  text-align: center;
+}
+
 h5 {
   font-weight: 900;
 }
@@ -191,7 +197,7 @@ em {
 
 #links {
   background-color: #fdf0d5;
-  padding: 10% 7% 5%;
+  padding: 10% 7% 15%;
   color: #003049;
 }
 
