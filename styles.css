@@ -39,7 +39,7 @@ em {
 }
 
 .container-fluid {
-  padding: 3% 7%;
+  padding: 3% auto;
 }
 
 .download-button {
@@ -342,7 +342,7 @@ a {
 @media only screen and (min-width: 992px) {
   .title-img {
     position: static;
-    width: 65%;
+    width: 70%;
     margin: 6px 0;
     padding-top: 0%;
   }
@@ -379,13 +379,14 @@ a {
 
 @media only screen and (min-width: 460px) and (max-width: 992px) {
   .title-img {
-    width: 55%;
+    width: 60%;
     margin: 6px 0;
     padding-top: 0 auto;
   }
 
   #title {
     padding-bottom: 1%;
+
   }
 
   .title-text {
@@ -419,4 +420,7 @@ a {
     margin-top: 0%;
   }
   
+  /* #title .container-fluid {
+    padding: 3%;
+  } */
 }
