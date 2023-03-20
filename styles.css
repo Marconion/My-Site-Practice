@@ -128,9 +128,9 @@ em {
   left: 60%;
 }
 
-.galerija-text {
+/* .galerija-text {
   padding-top: 5%;
-}
+} */
 
 /* APARTMANI */
 
@@ -360,6 +360,7 @@ a {
 /* SCREEN OPTIMIZATION */
 
 @media only screen and (min-width: 992px) {
+
   .title-img {
     position: static;
     width: 70%;
@@ -373,6 +374,11 @@ a {
 
   .title-text {
     margin-top: 15%;
+  }
+
+  .container-fluid .galerija-text {
+    padding-top: 5%;
+    padding-bottom: 1%;
   }
 
   section#features {
@@ -403,6 +409,8 @@ a {
 }
 
 @media only screen and (min-width: 460px) and (max-width: 992px) {
+  
+  
   .title-img {
     width: 60%;
     margin: 6px 0;
@@ -415,6 +423,11 @@ a {
 
   .title-text {
     margin-top: 5%;
+  }
+
+  .container-fluid .galerija-text {
+    padding-top: 10%;
+    padding-bottom: 1%;
   }
 
   section#features {
@@ -444,6 +457,7 @@ a {
   #links {
     padding: 2% 20%;
   }
+  
 }
 
 @media only screen and (max-width: 460px) {
