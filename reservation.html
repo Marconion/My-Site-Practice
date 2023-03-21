@@ -90,6 +90,13 @@
     <section id="form">
       <h1>Rezervacije</h1>
       <form action="">
+        <label for="email"> Vaša E-Mail adresa: </label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Unesi e-mail"
+        /><br /><br />
         <label for="firstname">Ime: </label><br />
         <input
           type="text"
@@ -104,6 +111,15 @@
           id="lastname"
           placeholder="Unesi prezime"
         /><br /><br />
+        <label for="brojtelefona">Broj telefona: </label><br />
+        <input
+          type="tel"
+          name="brojtelefona"
+          id="brojtelefona"
+          pattern="+[0-9]{3}-[0-9]{2}-[0-9]{3} || [0-9]{4}-[0-9]{3}" required><br>
+          <small>Format: 381-60-XXXX-XXX</small>
+          <br><br>        
+        
 
         <h3>Izaberi apartman</h3>
         <br />
@@ -127,7 +143,10 @@
         <input type="date" id="datefrom" name="datum" />
         <br /><br />
         <label for="dateto">Izaberi datum do</label><br />
-        <input type="date" id="dateto" name="datum" />
+        <input type="date" id="dateto" name="datum" />        
+        <br><br><br>
+        <label for="poruka">Dodatne informacije</label><br><br>
+        <textarea name="poruka" id="poruka" cols="30" rows="10" placeholder="Unesite napomenu"></textarea>
         <br /><br /><br />
         <input class="btn btn:hover" type="submit" value="Pošalji upit" />
       </form>
